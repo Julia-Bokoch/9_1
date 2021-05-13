@@ -1,10 +1,19 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 13.05.2021, 16:54:43
-    Author     : NeDo
-*/
+#introduction {
+    
+    background: url(../img/fon.png) no-repeat; 
+    background-position-y: 26px;
+   position: absolute;
+width: 1519px;
+height: 777px;
+left: 0px;
+top: 0px;
 
+background-color: #9A1212;
+}
+
+
+
+
+.fill-viewport {
+  min-height: 100vh 
+}
