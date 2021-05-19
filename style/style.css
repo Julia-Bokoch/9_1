@@ -1,19 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Jost';
+}
 #introduction {
-    
+    height: 100vh;
     background: url(../img/fon.png) no-repeat; 
-    background-position-y: 26px;
-   position: absolute;
-width: 1519px;
+      width: 1519px;
 height: 777px;
 left: 0px;
 top: 0px;
-
+background-position: 26px center;
 background-color: #9A1212;
+
 }
 
-
-
-
-.fill-viewport {
-  min-height: 100vh 
+.navig {
+    
+    margin-top: 64px;
+    list-style-type: none;
 }
+
+.navig li {
+    margin: 0 23px;
+    
+}
+ul li{
+display:inline-block;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    width: 124px;
+    height: 35px;
+    border-radius: 18px;
+    background: white;
+    text-align: center;
+    
+}
+
+.button a {
+    margin-top: -2px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.p2{
+    
+   color: black;
+    margin: 0 0 0 10px;
+}
+.text{
+    color: white;
+    text-align: right;
+    font-size: 64px;
+    margin-top: 80px;
+    min-width: 50vh;
+}
+.text span{
+    font-size: 96px;
+}
+.text_2{
+    width: 400px;
+    color: white;
+    font-size: 18px;
+    text-align: right;
+    margin: 26px 0 0 225px;
+}
+.more{
+   
+     margin: 80px 0 0 60px;
+}
+.vet1{
+    position: absolute;
+width: 450px;
+height: 603.09px;
+left: 785.46px;
+top: 150px;
+
+}
+.vet2{
+    position: absolute;
+width: 159.23px;
+height: 184.24px;
+left:60px;
+top: 356px;
+}
+
