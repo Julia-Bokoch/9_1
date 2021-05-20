@@ -50,7 +50,10 @@ display:inline-block;
     
     transform: scale(1.2);
 }
-
+.button:active{
+    transform: scale(0.9);
+    opacity: .8;
+}
 .button a {
     margin-top: -2px;
     text-decoration: none;
@@ -61,6 +64,7 @@ display:inline-block;
     
     color: #9A1212;
 }
+
 .p2{
     
    color: black;
